@@ -1,0 +1,19 @@
+
+Sistema de arquivos HPFS
+
+O sistema de arquivos HPFS foi introduzido pela primeira vez com o SO/2 1.2 para permitir um maior acesso a unidades de disco
+rígido maiores daquelas aparecendo no mercado. Além disso, era necessário que um novo sistema de arquivos estendesse o sistema
+de nomeação, organização e segurança para as demandas crescentes do mercado do servidor de rede. O HPFS mantém a organização de
+diretório do FAT, mas adiciona classificação automática do diretório baseado em nomes de arquivo. Os nomes de arquivo são
+estendidos para até 254 caracteres de byte duplo. O HPFS também permite que um arquivo seja composto de "dados" e atributos
+especiais para permitir uma maior flexibilidade em termos de suporte a outras convenções de nomeação e segurança. Além disso,
+a unidade de alocação é alterada de clusters para setores físicos (512 bytes), o que reduz o espaço em disco perdido.
+
+Sistemas de arquivos APFS
+
+O novo sistema de arquivos desenvolvido pela Apple traz uma série de novidades relacionadas a recursos, velocidade e segurança.
+O Apple File System (APFS) é uma nova geração de sistema de arquivos desenhado para se adaptar do Apple Watch ao Mac Pro.
+O APFS é otimizado para armazenamento em flash/SSD, e projetado com a criptografia como recurso primário.A razão por trás de a
+Apple limar o HFS+ completamente e construir um novo sistema basicamente do zero tem a ver com o fato de que seria muito mais
+dispendioso — tanto em termos de dinheiro como de energia — passar o resto dos tempos trabalhando em pequenas melhorias no sistema
+(agora) moribundo, criando assim o APFS.
